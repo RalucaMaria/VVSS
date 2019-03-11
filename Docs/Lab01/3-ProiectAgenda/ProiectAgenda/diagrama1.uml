@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="934.0" y="212.0">agenda.model.repository.classes.RepositoryContactMock</node>
+    <node x="0.0" y="1237.0">agenda.exceptions.InvalidFormatException</node>
+    <node x="0.0" y="1119.0">agenda.model.validator.ValidatorActivity</node>
+    <node x="800.5" y="0.0">agenda.model.repository.interfaces.RepositoryContact</node>
+    <node x="317.0" y="1237.0">agenda.model.validator.ValidatorException</node>
+    <node x="160.5" y="0.0">agenda.model.repository.interfaces.RepositoryActivity</node>
+    <node x="0.0" y="743.0">agenda.model.repository.classes.RepositoryUserFile</node>
+    <node x="321.0" y="234.0">agenda.model.repository.classes.RepositoryActivityMock</node>
+    <node x="773.0" y="1237.0">agenda.gui.models.TableModelContact</node>
+    <node x="971.0" y="1237.0">agenda.gui.models.TableModelActivity</node>
+    <node x="571.0" y="1237.0">agenda.model.repository.classes.RepositoryUserMock</node>
+    <node x="0.0" y="531.0">agenda.model.repository.interfaces.RepositoryUser</node>
+    <node x="0.0" y="234.0">agenda.model.repository.classes.RepositoryActivityFile</node>
+    <node x="343.0" y="531.0">agenda.model.base.Contact</node>
+    <node x="835.0" y="1018.0">agenda.startApp.MainClass</node>
+    <node x="1010.0" y="531.0">agenda.model.base.User</node>
+    <node x="275.0" y="1119.0">agenda.model.validator.ValidatorContact</node>
+    <node x="667.0" y="212.0">agenda.model.repository.classes.RepositoryContactFile</node>
+    <node x="0.0" y="1378.0">agenda.gui.window.MainWindow</node>
+    <node x="293.0" y="1018.0">agenda.model.validator.Validator</node>
+    <node x="1167.0" y="1237.0">agenda.gui.window.LoginWindow</node>
+    <node x="552.0" y="1119.0">agenda.model.validator.ValidatorUser</node>
+    <node x="635.0" y="531.0">agenda.model.base.Activity</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="agenda.model.validator.ValidatorContact" target="agenda.model.validator.Validator">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="agenda.model.validator.ValidatorActivity" target="agenda.model.validator.Validator">
+      <point x="0.0" y="-36.5" />
+      <point x="127.5" y="1094.0" />
+      <point x="329.83333333333337" y="1094.0" />
+      <point x="-73.66666666666663" y="25.5" />
+    </edge>
+    <edge source="agenda.model.repository.classes.RepositoryActivityMock" target="agenda.model.repository.interfaces.RepositoryActivity">
+      <point x="0.0" y="-126.0" />
+      <point x="471.5" y="209.0" />
+      <point x="386.25" y="209.0" />
+      <point x="75.25" y="92.0" />
+    </edge>
+    <edge source="agenda.model.repository.classes.RepositoryContactMock" target="agenda.model.repository.interfaces.RepositoryContact">
+      <point x="0.0" y="-115.0" />
+      <point x="1057.5" y="187.0" />
+      <point x="985.75" y="187.0" />
+      <point x="61.75" y="81.0" />
+    </edge>
+    <edge source="agenda.model.validator.ValidatorUser" target="agenda.model.validator.Validator">
+      <point x="0.0" y="-36.5" />
+      <point x="671.0" y="1094.0" />
+      <point x="477.16666666666674" y="1094.0" />
+      <point x="73.66666666666674" y="25.5" />
+    </edge>
+    <edge source="agenda.model.repository.classes.RepositoryUserFile" target="agenda.model.repository.interfaces.RepositoryUser">
+      <point x="0.0" y="-115.0" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="agenda.model.repository.classes.RepositoryContactFile" target="agenda.model.repository.interfaces.RepositoryContact">
+      <point x="0.0" y="-115.0" />
+      <point x="790.5" y="187.0" />
+      <point x="862.25" y="187.0" />
+      <point x="-61.75" y="81.0" />
+    </edge>
+    <edge source="agenda.model.repository.classes.RepositoryActivityFile" target="agenda.model.repository.interfaces.RepositoryActivity">
+      <point x="0.0" y="-126.0" />
+      <point x="150.5" y="209.0" />
+      <point x="235.75" y="209.0" />
+      <point x="-75.25" y="92.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.5" y="449.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
