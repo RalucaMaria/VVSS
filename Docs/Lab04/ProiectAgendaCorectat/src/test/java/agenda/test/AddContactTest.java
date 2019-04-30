@@ -20,7 +20,7 @@ public class AddContactTest {
 
 	@Before
 	public void setUp() throws Exception {
-		rep = new RepositoryContactMock();
+		rep = new RepositoryContactFile();
 	}
 
 	@Test
