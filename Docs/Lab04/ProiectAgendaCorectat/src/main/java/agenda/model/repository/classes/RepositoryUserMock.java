@@ -4,6 +4,6 @@ import agenda.model.validator.UserValidator;
 
 public class RepositoryUserMock {//implements RepositoryUser{
 
-	private UserValidator validator;
+	//private UserValidator validator;
 	
 }
