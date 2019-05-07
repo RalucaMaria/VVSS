@@ -13,7 +13,7 @@ import agenda.model.validator.ValidatorException;
 public class RepositoryActivityMock implements RepositoryActivity {
 
 	private List<Activity> activities;
-	private ActivityValidator validator;
+	//private ActivityValidator validator;
 	
 	public RepositoryActivityMock()
 	{
