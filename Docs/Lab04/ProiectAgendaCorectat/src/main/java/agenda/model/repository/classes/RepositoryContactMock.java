@@ -12,7 +12,7 @@ import agenda.model.validator.ValidatorException;
 public class RepositoryContactMock implements RepositoryContact {
 
 private List<Contact> contacts;
-private ContactValidator validator;
+//private ContactValidator validator;
 	
 	public RepositoryContactMock() {
 		contacts = new LinkedList<Contact>();
@@ -37,7 +37,7 @@ private ContactValidator validator;
 	@Override
 	public void addContact(Contact contact) {
 		try {
-			validator.validate(contact);
+			//validator.validate(contact);
 		} catch (ValidatorException e) {
 			e.printStackTrace();
 		}
