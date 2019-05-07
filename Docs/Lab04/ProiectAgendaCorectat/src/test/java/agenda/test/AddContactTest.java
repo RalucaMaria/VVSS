@@ -2,7 +2,7 @@ package agenda.test;
 
 import static org.junit.Assert.*;
 
-import agenda.model.repository.classes.RepositoryContactFile;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -17,12 +17,12 @@ public class AddContactTest {
 
 	private Contact con;
 	private RepositoryContact rep;
-
+	
 	@Before
 	public void setUp() throws Exception {
-		rep = new RepositoryContactFile();
+		rep = new RepositoryContactMock();
 	}
-
+	
 	@Test
 	public void testCase1()
 	{
@@ -42,7 +42,7 @@ public class AddContactTest {
 			}
 		//assertTrue(n+1 == rep.count());
 	}
-
+	
 	@Test
 	public void testCase2()
 	{
@@ -62,7 +62,7 @@ public class AddContactTest {
 				break;
 			}
 	}
-
+	
 	@Test
 	public void testCase3()
 	{
@@ -101,6 +101,3 @@ public class AddContactTest {
 
 
 }
-
-
-
